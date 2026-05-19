@@ -22,7 +22,7 @@ if (!isset($_GET['id'])) {
     </style>
 </head>
 <body>
-    <h1>Group 4 - Member List</h1>
+    <h1>Group qwerty - Member List</h1>
     <ul>";
     while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
         echo "<li><a href='member.php?id={$row['id']}'>{$row['name']}</a></li>";
